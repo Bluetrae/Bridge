@@ -1,5 +1,12 @@
 # WProxyLab 🐿️
 
+<p align="left">
+  <img src="https://hits.dwyl.com/Wendylal/WProxyLab.svg?style=flat-square&show=unique" alt="Repo Views" />
+  <img src="https://img.shields.io/github/stars/Wendylal/WProxyLab?style=flat-square&logo=github&label=Stars&color=f59e0b" alt="Stars" />
+</p>
+
+
+
 面向 Surge / Loon 的配置模板（Configs）与规则文件（Rules）仓库。  
 个人维护，侧重 结构化分流**、**场景化策略组 与 **可复用规则集**。
 
