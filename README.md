@@ -1,57 +1,55 @@
-# WProxyLab 🐿️
-
 <p align="left">
-  <img src="https://hits.dwyl.com/Wendylal/WProxyLab.svg?style=flat-square&show=unique" alt="Repo Views" />
-  <img src="https://img.shields.io/github/stars/Wendylal/WProxyLab?style=flat-square&logo=github&label=Stars&color=f59e0b" alt="Stars" />
+  <img src="https://hits.dwyl.com/Bluetrae/Bridge.svg?style=flat-square&show=unique" alt="Repo Views" />
+  <img src="https://img.shields.io/github/stars/Bluetrae/Bridge?style=flat-square&logo=github&label=Stars&color=f59e0b" alt="Stars" />
 </p>
 
+# Bridge 🧭
 
-
-面向 Surge / Loon 的配置模板（Configs）与规则文件（Rules）仓库。  
-个人维护，侧重 结构化分流**、**场景化策略组 与 **可复用规则集**。
+面向 **Surge / Loon** 的配置、规则与相关资源仓库。
 
 > 📌 使用前请先阅读：[`DISCLAIMER.md`](./DISCLAIMER.md)  
-> 📄 版权与说明：[`LICENSE`](./LICENSE) · [`NOTICE.md`](./NOTICE.md)
+> 🧾 版权与引用说明：[`LICENSE`](./LICENSE) · [`NOTICE.md`](./NOTICE.md)
 
 ---
 
-## 📦 仓库内容
+## 仓库定位
 
-- Surge/
-  - 配置模板（Configs）
-  - 规则文件（Rules）
-- Loon/
-  - 配置模板（Configs）
-  - 规则文件（Rules）
-- **Docs/**（可选）
-  - 说明文档 / 使用指引 / 维护记录
+Bridge 的目标是提供一套更容易维护、复用与整理的内容，帮助使用者在代理工具前端的日常使用中更顺手：
+
+- 配置模板（Configs）
+- 分流规则（Rules）
+- 相关资源（按需补充，如图标等）
 
 ---
 
-## 🚀 使用说明（简要）
+## 当前维护范围（核心）
 
-1. 选择对应工具目录（`Surge/` 或 `Loon/`）
-2. 引用或复制配置模板
-3. 按需启用规则文件（建议按场景逐步接入）
-4. 将规则引用放在合适顺序（自定义强制规则通常应靠前）
+- `Surge/`（Configs / Rules）
+- `Loon/`（Configs / Rules）
 
-> 💡 建议：首次使用先从最小可用配置开始，再逐步增加场景规则，便于排查与维护。
+> 后续如有需要，会按实际内容补充相关资源目录（例如图标）。
 
 ---
 
-## ⚠️ 说明与边界
+## 使用方式（最小路径）
 
-- 本仓库仅提供**配置结构、规则组织方式与示例规则**
-- 不提供节点、订阅服务或任何绕过授权/付费内容
-- 规则来源如有引用第三方项目，将在相关文件或 NOTICE.md 中注明
+1. 进入对应工具目录（`Surge/` 或 `Loon/`）
+2. 在 `Configs/` 中选择配置模板（例如 `Base.conf`）
+3. 在 `Rules/` 中选择需要的规则文件（Ads / Streaming / Social）
+4. 导入后按你的实际使用场景逐步验证，避免一次性改动过多
 
 ---
 
-## 🛠️ 维护风格
+## 使用限制（摘要）
 
-本仓库以“**稳定优先、逐步迭代**”为原则：
+- 未经许可：禁止转载、搬运、镜像、二次发布（尤其国内平台）
+- 未经许可：禁止用于商业用途
+- 详细条款请阅读：[`DISCLAIMER.md`](./DISCLAIMER.md) / [`NOTICE.md`](./NOTICE.md)
 
-- 先保证可用，再优化命中与体验
-- 优先保留可读性与可维护性
-- 对特殊场景（如 Apple Music、流媒体 CDN）采用专项规则集方式维护
-- **纯自用，心血来潮式维护**（更新频率不固定）
+---
+
+## 致谢与参考
+
+本仓库在目录组织思路与部分表达方式上受以下项目启发；相关内容已按本仓库范围进行重写与调整：
+
+- Repcz/Tool：<https://github.com/Repcz/Tool>
