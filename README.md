@@ -32,7 +32,7 @@
       </a>
     </td>
     <td align="center">
-      <a href="./Surge/Configs/"><strong>Configs</strong></a>
+      <a href="./Surge/Configs/Surge.conf"><strong>配置文件</strong></a>
     </td>
     <td align="center">
       <a href="./Loon/Configs/">
@@ -40,13 +40,13 @@
       </a>
     </td>
     <td align="center">
-      <a href="./Loon/Configs/"><strong>Configs</strong></a>
+      <a href="./Loon/Configs/Loon.conf"><strong>配置文件</strong></a>
     </td>
   </tr>
 </table>
 </div>
 
-> 说明：当前先提供目录入口。后续配置文件命名稳定后，可再补充为 `Base.conf` 等直链导入链接。
+> 说明：按配置文件内注释替换订阅占位符（如有）,按需启用或引用 Rules/ 中的规则文件，导入后先做基础连通性测试，再调整策略组等其他个性化内容。
 
 ---
 
