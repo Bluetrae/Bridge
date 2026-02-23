@@ -1,7 +1,7 @@
 # 规则类别：Apple Music
 # 规则名称：Apple Music 美区订阅
-# 规则统计：15
-# 更新时间：2026-02-22
+# 规则统计：17
+# 更新时间：2026-02-23
 # 适用工具：Surge / Loon
 # 维护仓库：Bluetrae/Bridge
 # 用途：Apple Music（美区订阅）核心接口 / 媒体 / CDN 分流到 AppleMusic 策略组
@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,itunes-apple.com
 DOMAIN,mvod.itunes.apple.com
 DOMAIN,fpinit.itunes.apple.com
+DOMAIN,init.itunes.apple.com
 
 # ===== Apple Media / Static Assets =====
 DOMAIN-SUFFIX,mzstatic.com
@@ -34,3 +35,4 @@ DOMAIN-SUFFIX,edge-itunes-apple.com.akadns.net
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,ks-cdn.com
 DOMAIN-SUFFIX,alikunlun.com
+DOMAIN,xp.apple.com.w.cdngslb.com
