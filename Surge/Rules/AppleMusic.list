@@ -29,7 +29,5 @@ DOMAIN,bag-cdn.itunes-apple.com.akadns.net
 DOMAIN-SUFFIX,edge-itunes-apple.com.akadns.net
 
 # ===== Broad CDN Coverage =====
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,alikunlun.com
 DOMAIN,xp.apple.com.w.cdngslb.com
 DOMAIN,appledownload.qtlcdn.com
